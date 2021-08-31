@@ -6,8 +6,8 @@ const Nav = () => {
     return(
         <nav>
             <h1>Sales</h1>
-            <button onClick={() => setLibraryStatus(!libraryStatus)}>
-                Library
+            <button>
+                Sum of Sales
                 <FontAwesomeIcon icon ={faCalculator} />
             </button>
         </nav>

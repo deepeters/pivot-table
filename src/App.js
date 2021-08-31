@@ -10,3 +10,19 @@ import Nav from "./components/Nav"
 
 //Add Data
 import Data from "./data"
+
+function App() {
+  return (
+    <div className='page-container'>
+        <Nav />
+        <div className='flex-container-left-row'>
+          <Tray />
+          <Column/>
+        </div>
+      </div>
+  );
+}
+
+
+
+export default App;
