@@ -9,7 +9,7 @@ import Tray from "./components/Tray"
 import Nav from "./components/Nav"
 
 //Add Data
-import Data from "./data"
+import Data from "./data/data"
 
 function App() {
   return (
